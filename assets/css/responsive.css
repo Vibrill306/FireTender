@@ -1,0 +1,188 @@
+@media (max-width: 1700px) {
+    html {
+        font-size: 1rem !important;
+    }
+
+    .bg-1 {
+        height: 100vh !important;
+    }
+
+    .bg-2 {
+        height: 100vh !important;
+    }
+
+}
+
+@media (max-width: 1400px) {
+    html {
+        font-size: 0.95rem !important;
+    }
+
+    .bg-1 {
+        height: 100vh !important;
+    }
+
+    .bg-2 {
+        height: 100vh !important;
+    }
+
+}
+
+@media (max-width: 1200px) {
+    html {
+        font-size: 0.9rem !important;
+    }
+
+    .bg-1 {
+        height: 90vh !important;
+    }
+
+    .bg-2 {
+        height: 90vh !important;
+    }
+
+    .sec-2-card {
+        padding: 1.4rem;
+    }
+
+    .form-input {
+        width: 100% !important;
+    }
+
+    .form-textarea {
+        width: 100% !important;
+    }
+
+}
+
+@media (max-width: 1024px) {
+    html {
+        font-size: 0.9rem;
+    }
+
+    .sec-2-card {
+        padding: 1.4rem;
+    }
+
+    .sec-1-carousel-text {
+        padding: 5rem;
+    }
+}
+
+@media (max-width: 992px) {
+    html {
+        font-size: 0.85rem !important;
+    }
+
+    .sec-2-card {
+        padding: 1.4rem 0.6rem;
+    }
+
+    .sec-2-flaticons {
+        width: 5rem;
+    }
+
+    .section-3 {
+        margin-top: 120px;
+    }
+
+    .sec-1-carousel-text {
+        padding: 5rem;
+    }
+
+    .sec-5-btn {
+        padding: 1rem;
+    }
+
+    iframe {
+        height: 80vh;
+    }
+
+}
+
+@media (max-width: 768px) {
+    html {
+        font-size: 0.8rem !important;
+    }
+
+    .para-2 {
+        font-size: 1rem;
+    }
+
+    .bg-1 {
+        height: 50vh;
+    }
+
+    .bg-2 {
+        height: 50vh;
+    }
+
+    .section-2 .container {
+        position: absolute;
+        top: 50%;
+        right: 50%;
+        transform: translate(50%, 60%);
+        z-index: 999 !important;
+        background-color: white;
+    }
+
+    .sec-2-card {
+        padding: 1.4rem 0.6rem;
+    }
+
+    .sec-2-flaticons {
+        width: 5rem;
+    }
+
+    .section-3 {
+        margin-top: 340px;
+    }
+
+    .sec-1-carousel-text {
+        padding: 5rem;
+        padding-top: 10rem;
+    }
+
+    .sec-5-btn {
+        padding: 0.8rem;
+    }
+
+    iframe {
+        height: 60vh;
+    }
+
+}
+
+@media (max-width: 576px) {
+    html {
+        font-size: 0.7rem !important;
+    }
+
+    .subtitle {
+        font-size: 1.6rem;
+    }
+
+    .bg-1 {
+        height: 40vh;
+    }
+
+    .bg-2 {
+        height: 40vh;
+    }
+
+    .section-3 {
+        margin-top: 310px;
+    }
+
+    .sec-1-carousel-text {
+        padding: 5rem;
+    }
+
+    .sec-5-btn {
+        padding: 0.68rem;
+    }
+
+    iframe {
+        height: 60vh;
+    }
+}
