@@ -5,12 +5,11 @@
     scroll-behavior: smooth;
     font-family: 'Manrope', sans-serif;
     --theme-red: rgb(109, 3, 3);
-    /* overflow: hidden; */
     --bg-color: rgb(243, 240, 240);
 }
 
 .fa-fire-extinguisher {
-    padding: 0px!important;
+    padding: 0px !important;
 }
 
 .title {
@@ -52,25 +51,21 @@
     transition: all 0.3s;
 }
 
-.customized-button-2 {
-    text-decoration: none;
-    color: white;
-    border: 1px solid rgb(255, 255, 255);
-    padding: 1rem 2.2rem;
-    background-color: rgb(169, 4, 4);
-    font-size: 1.2rem;
-}
-
-.customized-button-2:hover {
-    border: 1px solid black;
-    background: black;
-    transition: all 0.3s;
-}
 
 /* -------------------------------Top Bar-------------------------------- */
 
 .topbar {
     background-color: rgb(220, 219, 219);
+}
+
+.topbar-icon {
+    color: rgb(27, 0, 90);
+}
+
+.topbar-icon:hover {
+    transform: scale(1.2);
+    transition: all 0.3s;
+    color: rgb(22, 40, 162);
 }
 
 /* -------------------------------Navbar--------------------------------- */
@@ -151,14 +146,6 @@
     margin-top: 150px;
 }
 
-.sec-3-link {
-    font-size: 1.2rem;
-}
-
-.sec-3-link:hover {
-    color: var(--theme-red);
-}
-
 .sec-3-img {
     box-shadow: rgba(1, 5, 9, 0.4) 0px 0px 0px 1px,
         rgba(1, 5, 9, 0.4) 0px 4px 6px -1px,
@@ -173,7 +160,7 @@
         rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
-.sec-4-card-img img{
+.sec-4-card-img img {
     width: 50rem;
 }
 
@@ -337,6 +324,46 @@
 
 .footer-icon {
     color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.footer-icon:hover {
+    color: rgb(22, 40, 162);
+    background-color: white;
+    transform: scale(1.05);
+    transition: all 0.4s;
+}
+
+.ft-link:hover {
+    color: white;
+}
+
+.newsletter {
+    padding: 1rem 6rem 1rem 1.5rem;
+    border: none;
+    outline: none;
+}
+
+.newsletter-btn {
+    background-color: rgb(74, 5, 5);
+    border-radius: 50%;
+    position: absolute;
+    left: 80%;
+    bottom: 45%;
+    transform: translate(30%, -25%);
+    color: gray;
+}
+
+.newsletter-btn:hover {
+    background-color: rgb(158, 13, 13);
+    border-radius: 50%;
+    color: white;
+}
+
+.customized-border {
+    border-bottom: 1px solid white;
+    width: 20rem;
 }
 
 
@@ -358,7 +385,7 @@
 }
 
 .form-input {
-    padding: 0.9rem 3rem;
+    padding: 0.9rem 2.5rem;
     border: 1px solid rgb(158, 158, 158);
     border-radius: 6px;
 }
@@ -398,4 +425,218 @@
     border: 1px solid white;
     color: white;
     transition: all 0.3s;
+}
+
+
+
+
+
+/* **************************************************************************/
+/* **************************************************************************/
+
+/* ----------------------------------About Us--------------------------------- */
+
+/* ----------------------------------About us section-1---------------------------- */
+
+.about-section-1 {
+    background-image: url('../images/About-us/section-1/bg.jpg');
+    height: 50vh;
+}
+
+
+/* ----------------------------------About us section-2---------------------------- */
+
+.about-section-2-img img {
+    width: 30rem;
+}
+
+
+
+/* ----------------------------------About us section-3---------------------------- */
+
+.about-section-3 {
+    background-color: var(--theme-red);
+}
+
+.about-section-3-flaticons {
+    width: 5.5rem;
+}
+
+.about-section-3-btn {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    padding: 1rem 2.2rem;
+    background-color: white;
+    font-size: 1.2rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.about-section-3-btn:hover {
+    border: 1px solid rgb(255, 255, 255);
+    background: black;
+    color: rgb(255, 255, 255);
+    transition: all 0.4s;
+}
+
+
+/* **************************************************************************/
+/* **************************************************************************/
+
+/* ----------------------------------Services-------------------------------- */
+
+/* ------------------------------Services section-1---------------------------- */
+
+.services-section-1 {
+    background-image: url('../images/services/section-1/bg.jpg');
+    height: 50vh;
+}
+
+/* ------------------------------Services section-2---------------------------- */
+
+.services-section-2-card {
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+        rgba(0, 0, 0, 0.3) 0px 7px 13px -3px,
+        rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.services-section-2-card-img img {
+    width: 50rem;
+}
+
+/* ------------------------------Services section-3---------------------------- */
+
+.services-section-3 {
+    background-color: var(--theme-red);
+}
+
+.services-section-3-flaticons {
+    width: 5.5rem;
+}
+
+.services-section-3-btn {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    padding: 1rem 2.2rem;
+    background-color: white;
+    font-size: 1.2rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.services-section-3-btn:hover {
+    border: 1px solid rgb(255, 255, 255);
+    background: black;
+    color: rgb(255, 255, 255);
+    transition: all 0.4s;
+}
+
+
+
+/* ------------------------------Services section-4---------------------------- */
+
+
+
+
+/* ------------------------------Services section-5---------------------------- */
+
+.services-section-5 {
+    background-color: var(--bg-color);
+}
+
+.services-section-5-img {
+    width: 12rem !important;
+    background-color: white;
+    border: 1px solid rgb(210, 210, 210);
+    border-radius: 5px;
+}
+
+.services-section-5-img:hover {
+    filter: grayscale(100%);
+}
+
+
+/* **************************************************************************/
+/* **************************************************************************/
+
+/* ----------------------------------Blog-------------------------------- */
+
+/* ------------------------------Blog section-1---------------------------- */
+
+.blog-section-1 {
+    background-image: url('../images/blog/section-1/bg.jpg');
+    height: 50vh;
+}
+
+/* ------------------------------Blog section-2---------------------------- */
+
+.blog-img {
+    overflow: hidden;
+}
+
+.blog-img a img:hover {
+    transform: scale(1.1);
+    transition: all 0.9s ease-out;
+}
+
+.blog-text a,
+.recent-blog-text a,
+.blog-categories {
+    color: rgb(11, 100, 173);
+}
+
+.blog-text a:hover,
+.recent-blog-text a:hover,
+.blog-categories:hover {
+    color: var(--theme-red);
+    transition: all 0.5s;
+}
+
+.recent-blog-img img {
+    width: 5.5rem;
+}
+
+.blog-right-top {
+    background-color: rgb(244, 244, 244);
+    border-radius: 10px;
+}
+
+.blog-tag{
+    border: 1.5px solid rgb(0, 0, 25);
+    border-radius: 3px;
+    width: max-content;
+    cursor: pointer;
+    background-color: white;
+    color: rgb(35, 35, 35);
+}
+
+.blog-tag:hover {
+    background-color: rgb(1, 4, 26);
+    color: white;
+    transition: all 0.4s;
+}
+
+/* **************************************************************************/
+/* **************************************************************************/
+
+/* ----------------------------------Product-------------------------------- */
+
+/* ------------------------------Product section-1---------------------------- */
+
+.product-section-1 {
+    background-image: url('../images/products/section-1/bg.jpg');
+    height: 50vh;
+}
+
+/* ------------------------------Product section-2---------------------------- */
+
+.product-section-2-products {
+    background-color: rgb(232, 232, 232);
+    margin: 0px;
 }
