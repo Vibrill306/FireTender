@@ -11,6 +11,10 @@
         height: 100vh !important;
     }
 
+    .form-input {
+        width: 100%;
+    }
+
 }
 
 @media (max-width: 1400px) {
@@ -24,6 +28,22 @@
 
     .bg-2 {
         height: 100vh !important;
+    }
+
+    .form-input {
+        width: 1;
+    }
+
+    .recent-blog-img img {
+        width: 5rem;
+    }
+
+    .newsletter-btn {
+        position: absolute;
+        left: 73%;
+        bottom: 45%;
+        transform: translate(80%, -25%);
+        color: gray;
     }
 
 }
@@ -46,11 +66,25 @@
     }
 
     .form-input {
-        width: 100% !important;
+        width: 100%;
+        padding: 0.9rem 3rem;
+
     }
 
     .form-textarea {
         width: 100% !important;
+    }
+
+    .recent-blog-img img {
+        width: 4.4rem;
+    }
+
+    .newsletter-btn {
+        position: absolute;
+        left: 65%;
+        bottom: 45%;
+        transform: translate(150%, -25%);
+        color: gray;
     }
 
 }
@@ -67,6 +101,21 @@
     .sec-1-carousel-text {
         padding: 5rem;
     }
+
+    .newsletter {
+        padding: 1rem 6rem 1rem 1.5rem;
+        border: none;
+        outline: none;
+    }
+
+    .newsletter-btn {
+        position: absolute;
+        left: 65%;
+        bottom: 45%;
+        transform: translate(150%, -25%);
+        color: gray;
+    }
+
 }
 
 @media (max-width: 992px) {
@@ -96,6 +145,20 @@
 
     iframe {
         height: 80vh;
+    }
+
+    .newsletter {
+        padding: 1rem 4rem 1rem 1rem;
+        border: none;
+        outline: none;
+    }
+
+    .newsletter-btn {
+        position: absolute;
+        left: 85%;
+        bottom: 45%;
+        transform: translate(-20%, -25%);
+        color: gray;
     }
 
 }
@@ -151,6 +214,18 @@
         height: 60vh;
     }
 
+    .recent-blog-img img {
+        width: 6rem;
+    }
+
+    .customized-border {
+        width: 15rem;
+    }
+
+    .product-sec-2-img {
+        width: 30rem;
+    }
+
 }
 
 @media (max-width: 576px) {
@@ -185,4 +260,19 @@
     iframe {
         height: 60vh;
     }
+
+    
+    .recent-blog-img img {
+        padding-top: 7px;
+        width: 4rem;
+    }
+
+    .customized-border {
+        width: 15rem;
+    }
+
+    .product-sec-2-img {
+        width: 20rem;
+    }
+
 }
